@@ -1,0 +1,1216 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v2.2.0",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5125,
+      "count": 8778
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2267,
+      "max": [
+        0.054845333099365234,
+        0.18229177594184875,
+        0.02358182519674301
+      ],
+      "min": [
+        -0.12803688645362854,
+        -0.0027705803513526917,
+        -0.028831608593463898
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2267
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2267
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 15480
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 1,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "source": 0,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "uri": "drill3_img0.jpg"
+    },
+    {
+      "uri": "drill3_img1.jpg"
+    },
+    {
+      "uri": "drill3_img2.jpg"
+    },
+    {
+      "uri": "drill3_img3.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "drill3_data.bin",
+      "byteLength": 15480
+    }
+  ],
+  "materials": [
+    {
+      "name": "Drill_01",
+      "extras": {
+        "enableLUT": true,
+        "uuid": "897f8d3b-208b-4cd5-b7f0-7ef223a63836"
+      },
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5401517133141512,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0,
+          "clearcoatRoughnessFactor": 0
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4999999999999998
+        },
+        "KHR_materials_iridescence": {},
+        "WEBGI_materials_bumpmap": {
+          "bumpScale": 0.2
+        },
+        "WEBGI_materials_lightmap": {
+          "lightMapIntensity": 1
+        },
+        "WEBGI_material_extras": {
+          "fog": true,
+          "flatShading": false,
+          "blending": 1,
+          "shadowSide": null,
+          "depthTest": true,
+          "depthWrite": true,
+          "colorWrite": true,
+          "wireframe": false,
+          "wireframeLinewidth": 1,
+          "wireframeLinecap": "round",
+          "wireframeLinejoin": "round",
+          "dithering": false,
+          "alphaToCoverage": false,
+          "premultipliedAlpha": false,
+          "toneMapped": true
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Drill_01",
+      "extras": {
+        "name": "Drill_01",
+        "gltfUUID": "5aa776dd-a044-43ef-957c-c7788e2de550"
+      },
+      "mesh": 0,
+      "extensions": {
+        "WEBGI_object3d_extras": {
+          "castShadow": true,
+          "receiveShadow": true
+        }
+      }
+    },
+    {
+      "name": "Scene_1",
+      "extras": {
+        "name": "Scene",
+        "gltfUUID": "784a3e05-536c-48ba-ac3b-c6694da37175"
+      },
+      "scale": [
+        15.071163197840416,
+        15.071163197840416,
+        15.071163197840416
+      ],
+      "children": [
+        0
+      ],
+      "extensions": {
+        "WEBGI_object3d_extras": {
+          "castShadow": false,
+          "receiveShadow": false
+        }
+      }
+    },
+    {
+      "name": "Scene-centered",
+      "extras": {
+        "name": "Scene-centered",
+        "pseudoCentered": true,
+        "autoScaled": true,
+        "autoScaleRadius": 2,
+        "gltfUUID": "6309d386-91c8-41cb-98d1-b4816840f07e"
+      },
+      "translation": [
+        0.03659577667713165,
+        -0.08976059779524803,
+        0.002624891698360443
+      ],
+      "children": [
+        1
+      ],
+      "extensions": {
+        "WEBGI_object3d_extras": {
+          "castShadow": false,
+          "receiveShadow": false
+        }
+      }
+    },
+    {
+      "extras": {
+        "gltfUUID": "a1a3c376-e9a7-4ba8-b7fd-4f05f5abd557"
+      },
+      "translation": [
+        0,
+        0,
+        -1
+      ],
+      "extensions": {
+        "WEBGI_object3d_extras": {
+          "castShadow": false,
+          "receiveShadow": false
+        }
+      }
+    },
+    {
+      "extras": {
+        "gltfUUID": "6978f332-fd3b-45b3-b9ee-dadd4bf512c8"
+      },
+      "translation": [
+        0,
+        0,
+        -1
+      ],
+      "extensions": {
+        "WEBGI_object3d_extras": {
+          "castShadow": false,
+          "receiveShadow": false
+        }
+      }
+    },
+    {
+      "extras": {
+        "gltfUUID": "d2bd7afc-6530-4e42-a282-1e82701d6b78"
+      },
+      "translation": [
+        0,
+        0,
+        -1
+      ],
+      "extensions": {
+        "WEBGI_object3d_extras": {
+          "castShadow": false,
+          "receiveShadow": false
+        }
+      }
+    },
+    {
+      "extras": {
+        "gltfUUID": "bc4d0924-9b4a-4c11-a731-5686c8240ef3"
+      },
+      "translation": [
+        0,
+        0,
+        -1
+      ],
+      "extensions": {
+        "WEBGI_object3d_extras": {
+          "castShadow": false,
+          "receiveShadow": false
+        }
+      }
+    },
+    {
+      "extras": {
+        "gltfUUID": "6ddc4b42-4239-4610-b3e4-f70b8d19ebdc"
+      },
+      "translation": [
+        0,
+        0,
+        -1
+      ],
+      "extensions": {
+        "WEBGI_object3d_extras": {
+          "castShadow": false,
+          "receiveShadow": false
+        }
+      }
+    },
+    {
+      "name": "light_0",
+      "extras": {
+        "name": "light_0",
+        "gltfUUID": "8535be23-2e55-4b03-993d-e68d499f362a"
+      },
+      "rotation": [
+        0.5081094414698133,
+        0.8599711826436768,
+        -0.01620744296876926,
+        -0.04485174806051957
+      ],
+      "children": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        },
+        "WEBGI_light_extras": {
+          "shadow": {
+            "mapSize": [
+              1024,
+              1024
+            ],
+            "camera": {
+              "uuid": "78ade1d4-5b21-4fb2-84ee-534445d18654",
+              "type": "OrthographicCamera",
+              "layers": 1,
+              "zoom": 1,
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500,
+              "view": {
+                "enabled": true,
+                "fullWidth": 1024,
+                "fullHeight": 1024,
+                "offsetX": -0.25,
+                "offsetY": 0.375,
+                "width": 1024,
+                "height": 1024
+              }
+            }
+          }
+        },
+        "WEBGI_object3d_extras": {
+          "castShadow": true,
+          "receiveShadow": false
+        }
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "extras": {
+        "rootSceneModelRoot": true,
+        "gltfUUID": "96f640f3-c1c2-4858-9f25-be247dfd9fc3"
+      },
+      "nodes": [
+        2,
+        8
+      ],
+      "extensions": {
+        "WEBGI_viewer": {
+          "version": "0.4.3",
+          "plugins": [
+            {
+              "enabled": true,
+              "type": "AssetImportPopupPluginBasic"
+            },
+            {
+              "type": "AssetExporterPlugin"
+            },
+            {
+              "type": "GLTFDracoExportPlugin"
+            },
+            {
+              "type": "Picking"
+            },
+            {
+              "enabled": true,
+              "type": "GBuffer",
+              "pass": {}
+            },
+            {
+              "maxFrameCount": 32,
+              "jitter": true,
+              "type": "Progressive",
+              "passes": {
+                "progressive": {
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "enabled": true,
+              "type": "Tonemap",
+              "pass": {
+                "toneMapping": 4,
+                "tonemapBackground": true,
+                "clipBackground": true,
+                "exposure": 1,
+                "enabled": true
+              }
+            },
+            {
+              "type": "SSReflection",
+              "passes": {
+                "ssr": {
+                  "intensity": 1,
+                  "boost": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1,
+                    "isVector3": true
+                  },
+                  "objectRadius": 1,
+                  "autoRadius": true,
+                  "power": 1.1,
+                  "tolerance": 0.5,
+                  "stepCount": 16,
+                  "lowQualityFrames": 0,
+                  "maskFrontRays": true,
+                  "maskFrontFactor": -0.2,
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "type": "SSAO",
+              "passes": {
+                "ssao": {
+                  "bilateralPass": {
+                    "smoothEnabled": true,
+                    "edgeSharpness": 0.1,
+                    "enabled": true
+                  },
+                  "parameters": {
+                    "intensity": 0.25,
+                    "occlusionWorldRadius": 1,
+                    "bias": 0.001,
+                    "falloff": 1,
+                    "edgeSharpness": 0.3,
+                    "blurEnabled": true
+                  },
+                  "enabled": true
+                }
+              }
+            },
+            {
+              "envMap": null,
+              "forceSceneEnvMap": false,
+              "type": "Diamond"
+            },
+            {
+              "enabled": true,
+              "type": "FrameFade",
+              "pass": {
+                "enabled": true
+              }
+            },
+            {
+              "animateOnScroll": false,
+              "animationSpeed": 1,
+              "type": "GLTFAnimation"
+            },
+            {
+              "bakedShadows": true,
+              "groundReflection": false,
+              "physicalReflections": false,
+              "shadowBaker": {
+                "randomizedLight": {
+                  "object": {
+                    "uuid": "c5c0715d-bba0-4bcd-b7ab-ec4bc38e8de4",
+                    "type": "DirectionalLight",
+                    "castShadow": true,
+                    "layers": 32,
+                    "matrix": [
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1,
+                      0,
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "children": [
+                      {
+                        "uuid": "d3b857c5-69ae-4015-9845-635c91e91f80",
+                        "type": "Object3D",
+                        "layers": 1,
+                        "matrix": [
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0.09112993350767985,
+                          -0.9932400257039313,
+                          -0.07189983698548548,
+                          1
+                        ]
+                      }
+                    ],
+                    "color": 16777215,
+                    "intensity": 10,
+                    "shadow": {
+                      "radius": 10,
+                      "mapSize": [
+                        1024,
+                        1024
+                      ],
+                      "camera": {
+                        "uuid": "5487f376-d6ad-421d-b63a-f1707f88b152",
+                        "type": "OrthographicCamera",
+                        "layers": 1,
+                        "zoom": 1,
+                        "left": -2,
+                        "right": 2,
+                        "top": 2,
+                        "bottom": -2,
+                        "near": -2,
+                        "far": 41,
+                        "view": {
+                          "enabled": true,
+                          "fullWidth": 1024,
+                          "fullHeight": 1024,
+                          "offsetX": -0.25,
+                          "offsetY": 0.375,
+                          "width": 1024,
+                          "height": 1024
+                        }
+                      }
+                    }
+                  },
+                  "type": "DirectionalLight2",
+                  "target": [
+                    0.09112993350767985,
+                    -0.9932400257039313,
+                    -0.07189983698548548
+                  ],
+                  "shadowParams": {
+                    "enabled": true,
+                    "radius": 10,
+                    "width": 1024,
+                    "height": 1024,
+                    "bias": 0,
+                    "normalBias": 0,
+                    "near": 1.5,
+                    "far": 20,
+                    "frustumSize": 4
+                  },
+                  "randomParams": {
+                    "focus": 1,
+                    "spread": 0.9,
+                    "distanceScale": 20,
+                    "minDistanceScale": {
+                      "x": 10,
+                      "y": 10,
+                      "z": 10,
+                      "isVector3": true
+                    },
+                    "normalDirection": {
+                      "x": 0,
+                      "y": 1,
+                      "z": 0,
+                      "isVector3": true
+                    },
+                    "direction": {
+                      "x": 0.2,
+                      "y": 0.96,
+                      "z": 0.2,
+                      "isVector3": true
+                    }
+                  }
+                },
+                "maxFrameNumber": 400,
+                "groundMapMode": "aoMap",
+                "alphaVignette": true,
+                "alphaVignetteAxis": "xy"
+              },
+              "material": {
+                "uuid": "83068c30-6253-4103-8545-1b91bc01d84c",
+                "resource": "materials"
+              },
+              "visible": false,
+              "size": 8,
+              "yOffset": 0,
+              "renderToDepth": true,
+              "tonemapGround": true,
+              "type": "Ground"
+            },
+            {
+              "enabled": true,
+              "type": "Bloom",
+              "pass": {
+                "threshold": 2,
+                "softThreshold": 0.5,
+                "intensity": 0.5,
+                "bloomIterations": 4,
+                "radius": 0.6,
+                "power": 1,
+                "enabled": true
+              }
+            },
+            {
+              "enabled": true,
+              "type": "AnisotropyPlugin"
+            },
+            {
+              "enabled": true,
+              "type": "ThinFilmLayerPlugin"
+            },
+            {
+              "enabled": true,
+              "type": "NoiseBumpMaterialPlugin"
+            },
+            {
+              "enabled": true,
+              "bicubicFiltering": true,
+              "type": "CustomBumpMapPlugin"
+            },
+            {
+              "enabled": true,
+              "type": "ClearcoatTintPlugin"
+            },
+            {
+              "enabled": false,
+              "type": "VelocityBuffer",
+              "pass": {}
+            },
+            {
+              "enabled": true,
+              "type": "TAA",
+              "pass": {
+                "feedBack": {
+                  "x": 0.88,
+                  "y": 0.97,
+                  "isVector2": true
+                },
+                "enabled": true
+              }
+            },
+            {
+              "cameraViews": [
+                {
+                  "position": {
+                    "x": -5.26325611730643,
+                    "y": 0.38381440369711284,
+                    "z": 5.641019845658829,
+                    "isVector3": true
+                  },
+                  "target": {
+                    "x": -1.4141356997366086,
+                    "y": 1.2498151167635667,
+                    "z": -0.6143271306699029,
+                    "isVector3": true
+                  },
+                  "quaternion": {
+                    "x": 0.05643261689095717,
+                    "y": -0.27185640799480215,
+                    "z": 0.015971666940096874,
+                    "w": 0.9605489883593428,
+                    "isQuaternion": true
+                  },
+                  "up": {
+                    "x": -0.061366274086889654,
+                    "y": 0.9931205312119862,
+                    "z": 0.09972858612211039,
+                    "isVector3": true
+                  },
+                  "name": "Camera View1",
+                  "serializableClassId": "CameraView"
+                },
+                {
+                  "position": {
+                    "x": 1.560123570684422,
+                    "y": -2.2624521123753265,
+                    "z": -3.8509934623178808,
+                    "isVector3": true
+                  },
+                  "target": {
+                    "x": -1.373588809019309,
+                    "y": 1.9983531220337534,
+                    "z": -0.3736979089875227,
+                    "isVector3": true
+                  },
+                  "quaternion": {
+                    "x": 0.12615490447026517,
+                    "y": 0.8735093603105488,
+                    "z": -0.3451680629945673,
+                    "w": 0.319257491402367,
+                    "isQuaternion": true
+                  },
+                  "up": {
+                    "x": 0.44078995961543904,
+                    "y": 0.7298878967333534,
+                    "z": -0.5224632711534672,
+                    "isVector3": true
+                  },
+                  "name": "Camera View2",
+                  "serializableClassId": "CameraView"
+                },
+                {
+                  "position": {
+                    "x": -3.4043240469311256,
+                    "y": 0.6281125533594873,
+                    "z": 1.7191708836908663,
+                    "isVector3": true
+                  },
+                  "target": {
+                    "x": -1.5004071974897868,
+                    "y": 2.1355059497741133,
+                    "z": -0.43419795089086033,
+                    "isVector3": true
+                  },
+                  "quaternion": {
+                    "x": 0.22365952292709765,
+                    "y": -0.3438649817648072,
+                    "z": 0.08469626461249528,
+                    "w": 0.9080527709778777,
+                    "isQuaternion": true
+                  },
+                  "up": {
+                    "x": -0.30763471109140766,
+                    "y": 0.8856059211294267,
+                    "z": 0.3479411401260365,
+                    "isVector3": true
+                  },
+                  "name": "Camera View3",
+                  "serializableClassId": "CameraView"
+                }
+              ],
+              "viewLooping": false,
+              "viewPauseTime": 200,
+              "animEase": "easeInOutSine",
+              "animDuration": 1000,
+              "rotationOffset": 0.25,
+              "interpolateMode": "spherical",
+              "seekOnScroll": false,
+              "type": "CameraViews"
+            },
+            {
+              "enabled": false,
+              "rdLight": {
+                "object": {
+                  "uuid": "3c810719-fb99-411a-91f3-d18a18f6d69c",
+                  "type": "DirectionalLight",
+                  "castShadow": true,
+                  "layers": 0,
+                  "matrix": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1
+                  ],
+                  "children": [
+                    {
+                      "uuid": "c16550f7-c35c-4f0a-9ed8-f3f26a4fb84d",
+                      "type": "Object3D",
+                      "layers": 1,
+                      "matrix": [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        -1,
+                        1
+                      ]
+                    }
+                  ],
+                  "color": 13430527,
+                  "intensity": 1,
+                  "shadow": {
+                    "bias": -0.001,
+                    "radius": 2,
+                    "mapSize": [
+                      1024,
+                      1024
+                    ],
+                    "camera": {
+                      "uuid": "bf999960-9702-4061-8170-0961cce07266",
+                      "type": "OrthographicCamera",
+                      "layers": 1,
+                      "zoom": 1,
+                      "left": -2,
+                      "right": 2,
+                      "top": 2,
+                      "bottom": -2,
+                      "near": -2,
+                      "far": 9,
+                      "view": {
+                        "enabled": true,
+                        "fullWidth": 1024,
+                        "fullHeight": 1024,
+                        "offsetX": -0.25,
+                        "offsetY": 0.375,
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    }
+                  }
+                },
+                "type": "DirectionalLight2",
+                "target": [
+                  0,
+                  0,
+                  -1
+                ],
+                "shadowParams": {
+                  "enabled": true,
+                  "radius": 2,
+                  "width": 1024,
+                  "height": 1024,
+                  "bias": -0.001,
+                  "normalBias": 0,
+                  "near": 1.5,
+                  "far": 4,
+                  "frustumSize": 4
+                },
+                "randomParams": {
+                  "focus": 1,
+                  "spread": 0.01,
+                  "distanceScale": 50,
+                  "minDistanceScale": {
+                    "x": 10,
+                    "y": 10,
+                    "z": 10,
+                    "isVector3": true
+                  },
+                  "normalDirection": {
+                    "x": 0.010203019316098974,
+                    "y": 0.9998958929776994,
+                    "z": 0.010203019316098974,
+                    "isVector3": true
+                  },
+                  "direction": {
+                    "x": -0.9,
+                    "y": 0.5,
+                    "z": -1,
+                    "isVector3": true
+                  }
+                }
+              },
+              "lightLayers": 1,
+              "type": "RandomizedDirectionalLight"
+            },
+            {
+              "enabled": false,
+              "worldRadius": 100,
+              "tripodHeight": 10,
+              "type": "HDRiGroundPlugin"
+            },
+            {
+              "enableEdit": false,
+              "focalPoint": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "isVector3": true
+              },
+              "crossFadeTime": 200,
+              "enabled": false,
+              "type": "DepthOfField",
+              "pass": {
+                "nearFarBlurScale": {
+                  "x": 0.25,
+                  "y": 0.25,
+                  "isVector2": true
+                },
+                "focalDepthRange": {
+                  "x": 0.5,
+                  "y": 1.5,
+                  "isVector2": true
+                },
+                "enabled": false
+              }
+            },
+            {
+              "enabled": false,
+              "radius": 0.015,
+              "intensity": 1,
+              "tolerance": 1.5,
+              "onlySSCSDebug": false,
+              "stepCount": 2,
+              "type": "SSContactShadows"
+            },
+            {
+              "type": "SSGI",
+              "passes": {
+                "ssrtgi": {
+                  "bilateralPass": {
+                    "smoothEnabled": true,
+                    "edgeSharpness": 0.1,
+                    "enabled": true
+                  },
+                  "intensity": 2,
+                  "power": 1.1,
+                  "autoRadius": true,
+                  "objectRadius": 2,
+                  "tolerance": 1,
+                  "bias": 0.15,
+                  "falloff": 0.7,
+                  "rayCount": 2,
+                  "stepCount": 4,
+                  "smoothEnabled": true,
+                  "enabled": false
+                }
+              }
+            },
+            {
+              "stepCount": 12,
+              "binaryStepCount": 3,
+              "type": "ReliefParallaxMapping"
+            },
+            {
+              "enabled": true,
+              "type": "ObjectRotationPlugin"
+            },
+            {
+              "type": "ShapeTubeExtrudePlugin"
+            },
+            {
+              "type": "SimpleTextPlugin"
+            },
+            {
+              "variations": [],
+              "type": "MaterialConfiguratorPlugin"
+            },
+            {
+              "variations": [],
+              "type": "SwitchNodePlugin"
+            },
+            {
+              "type": "MaterialLibraryPlugin"
+            },
+            {
+              "type": "CanvasRecorder"
+            },
+            {
+              "type": "CanvasSnipper"
+            },
+            {
+              "type": "SimpleLightsUi"
+            }
+          ],
+          "scene": {
+            "defaultCamera": {
+              "camControls": {
+                "type": "OrbitControls",
+                "enableDamping": true,
+                "dampingFactor": 0.08,
+                "autoRotate": false,
+                "autoRotateSpeed": 2,
+                "enableZoom": true,
+                "zoomSpeed": 0.15,
+                "maxZoomSpeed": 0.2,
+                "enableRotate": true,
+                "rotateSpeed": 2,
+                "enablePan": true,
+                "panSpeed": 1,
+                "minDistance": 0.35,
+                "maxDistance": 1000,
+                "minZoom": 0.01,
+                "maxZoom": 1000,
+                "minPolarAngle": 0,
+                "maxPolarAngle": 3.141592653589793,
+                "minAzimuthAngle": -10000,
+                "maxAzimuthAngle": 10000,
+                "screenSpacePanning": true,
+                "keyPanSpeed": 7
+              },
+              "camOptions": {
+                "type": "PerspectiveCamera",
+                "aspect": "auto",
+                "focus": 10,
+                "fov": 25,
+                "zoom": 1,
+                "frustumSize": 1,
+                "top": 1,
+                "bottom": -1,
+                "left": -1,
+                "right": 1,
+                "controlsMode": "orbit",
+                "controlsEnabled": true
+              },
+              "position": {
+                "x": -5.265313556240455,
+                "y": 0.3855912937769339,
+                "z": 5.639999157557014,
+                "isVector3": true
+              },
+              "target": {
+                "x": -1.4141356997366086,
+                "y": 1.2498151167635667,
+                "z": -0.6143271306699029,
+                "isVector3": true
+              }
+            },
+            "envMapIntensity": 1.4,
+            "environment": {
+              "uuid": "93fb7950-6cc8-449d-9634-8286f8267667",
+              "resource": "textures"
+            }
+          },
+          "background": "#ffffff",
+          "backgroundIntensity": 1,
+          "resources": {
+            "geometries": {},
+            "materials": {
+              "83068c30-6253-4103-8545-1b91bc01d84c": {
+                "metadata": {
+                  "version": 4.5,
+                  "type": "Material",
+                  "generator": "Material.toJSON"
+                },
+                "uuid": "83068c30-6253-4103-8545-1b91bc01d84c",
+                "type": "MeshStandardMaterial2",
+                "name": "BaseGroundMaterial",
+                "color": 16777215,
+                "roughness": 0.2,
+                "metalness": 0.5,
+                "sheen": 0,
+                "sheenColor": 0,
+                "sheenRoughness": 1,
+                "emissive": 0,
+                "specularIntensity": 1,
+                "specularColor": 16777215,
+                "clearcoat": 0,
+                "clearcoatRoughness": 0,
+                "iridescence": 0,
+                "iridescenceIOR": 1.3,
+                "iridescenceThicknessRange": [
+                  100,
+                  400
+                ],
+                "envMapIntensity": 1.4,
+                "reflectivity": 0.49999999999999983,
+                "transmission": 0,
+                "thickness": 0,
+                "attenuationDistance": 0,
+                "attenuationColor": 16777215,
+                "depthFunc": 3,
+                "depthTest": true,
+                "depthWrite": true,
+                "colorWrite": true,
+                "stencilWrite": false,
+                "stencilWriteMask": 255,
+                "stencilFunc": 519,
+                "stencilRef": 0,
+                "stencilFuncMask": 255,
+                "stencilFail": 7680,
+                "stencilZFail": 7680,
+                "stencilZPass": 7680,
+                "fog": false,
+                "userData": {
+                  "renderToDepth": true,
+                  "postTonemap": true,
+                  "ssaoDisabled": true,
+                  "sscsDisabled": true,
+                  "ssreflDisabled": false,
+                  "ssreflNonPhysical": true,
+                  "gMapMode": "aoMap",
+                  "ALPHA_I_RGBA_PACKING": false,
+                  "enableLUT": true,
+                  "_a215374f-c68a-4ded-8bd4-d1844fd8bb4e_version": 1,
+                  "_a78caefc-c1ef-4d1f-9878-c0cfa6c42e83_version": 1,
+                  "uuid": "83068c30-6253-4103-8545-1b91bc01d84c"
+                }
+              }
+            },
+            "textures": {
+              "93fb7950-6cc8-449d-9634-8286f8267667": {
+                "metadata": {
+                  "version": 4.5,
+                  "type": "Texture",
+                  "generator": "Texture.toJSON"
+                },
+                "uuid": "93fb7950-6cc8-449d-9634-8286f8267667",
+                "name": "",
+                "image": "181987c3-ca93-4d4f-9ea3-7c23a266a83d",
+                "mapping": 303,
+                "repeat": [
+                  1,
+                  1
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "center": [
+                  0,
+                  0
+                ],
+                "rotation": 1.0681415022205298,
+                "wrap": [
+                  1001,
+                  1001
+                ],
+                "format": 1023,
+                "type": 1016,
+                "encoding": 3000,
+                "minFilter": 1006,
+                "magFilter": 1006,
+                "anisotropy": 1,
+                "flipY": true,
+                "premultiplyAlpha": false,
+                "unpackAlignment": 1,
+                "userData": {
+                  "mimeType": "image/png"
+                }
+              }
+            },
+            "images": {
+              "181987c3-ca93-4d4f-9ea3-7c23a266a83d": {
+                "uuid": "181987c3-ca93-4d4f-9ea3-7c23a266a83d",
+                "url": {
+                  "data": {
+                    "image": 3
+                  },
+                  "width": 1024,
+                  "height": 512,
+                  "type": "Uint16Array",
+                  "encoding": "rgbe"
+                }
+              }
+            },
+            "shapes": {},
+            "skeletons": {},
+            "animations": {}
+          }
+        }
+      }
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "KHR_materials_clearcoat",
+    "KHR_materials_ior",
+    "KHR_materials_iridescence",
+    "WEBGI_viewer",
+    "WEBGI_materials_bumpmap",
+    "WEBGI_materials_lightmap",
+    "WEBGI_light_extras",
+    "WEBGI_object3d_extras",
+    "WEBGI_material_extras",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "intensity": 2,
+          "name": "light_0"
+        }
+      ]
+    }
+  }
+}
